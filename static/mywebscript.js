@@ -1,6 +1,9 @@
 let RunSentimentAnalysis = ()=>{
-    textToAnalyze = document.getElementById("textToAnalyze").value;
 
+    alert("hi");
+    textToAnalyze = document.getElementById("textToAnalyze").value;
+    console.log("this is wokring?")
+    console.log(textToAnalyze)
     let xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
